@@ -1,0 +1,24 @@
+
+.container,
+.row {
+  height: 100vh;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  background-color:darkslateblue;
+  width: auto;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: aliceblue;
+}
+
